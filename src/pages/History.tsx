@@ -19,7 +19,7 @@ export function History() {
       <SEO 
         title="Our History"
         description="Explore the rich history and journey of Champatala High School since its establishment in 1947." 
-        url="https://champatalahighschool.in/history"
+        url="https://champatalahighschoolhs.netlify.app/history"
         breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'History', path: '/history' }]}
       />
       

@@ -19,7 +19,7 @@ export function Academics() {
       <SEO 
         title="Academics"
         description="Explore our academic programs, approach to education, secondary, and higher secondary curriculum at Champatala High School." 
-        url="https://champatalahighschool.in/academics"
+        url="https://champatalahighschoolhs.netlify.app/academics"
         breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'Academics', path: '/academics' }]}
       />
       

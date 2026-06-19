@@ -10,7 +10,7 @@ export function About() {
       <SEO 
         title="About Us"
         description="Learn about Champatala High School, our mission, vision, core values, and why we are a pillar of educational excellence in Purba Medinipur." 
-        url="https://champatalahighschool.in/about"
+        url="https://champatalahighschoolhs.netlify.app/about"
         breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'About', path: '/about' }]}
       />
       

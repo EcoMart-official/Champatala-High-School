@@ -14,7 +14,7 @@ export function SEO({
   title = 'Champatala High School',
   description = 'Champatala High School is a prestigious, government-sponsored co-educational higher secondary institution established in 1947, dedicated to academic excellence in Purba Medinipur, West Bengal.',
   keywords = 'Champatala High School, Champatala School, High School in Contai, Purba Medinipur School, Government Sponsored School in West Bengal, Higher Secondary School, Best School in Contai, West Bengal Board of Secondary Education',
-  url = 'https://champatalahighschool.in', // Using a placeholder domain
+  url = 'https://champatalahighschoolhs.netlify.app', // Default domain
   image = 'https://i.ibb.co/Z1h5mv0B/unnamed.webp',
   type = 'website',
   breadcrumbs = []
@@ -26,7 +26,7 @@ export function SEO({
     "@context": "https://schema.org",
     "@type": ["School", "EducationalOrganization"],
     "name": "Champatala High School",
-    "url": "https://champatalahighschool.in",
+    "url": "https://champatalahighschoolhs.netlify.app",
     "logo": "https://i.ibb.co/TxDpdYX9/Screenshot-20260619-115704.png",
     "image": image,
     "description": description,
@@ -62,7 +62,7 @@ export function SEO({
       "@type": "ListItem",
       "position": index + 1,
       "name": crumb.label,
-      "item": `https://champatalahighschool.in${crumb.path}`
+      "item": `https://champatalahighschoolhs.netlify.app${crumb.path}`
     }))
   } : null;
 
