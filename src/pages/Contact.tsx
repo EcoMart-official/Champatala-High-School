@@ -10,6 +10,9 @@ export function Contact() {
       <SEO 
         title="Contact Us"
         description="Get in touch with Champatala High School. Find our address, phone number, email, and institution codes." 
+        url="https://champatalahighschool.in/contact"
+        type="website"
+        breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'Contact', path: '/contact' }]}
       />
       
       <PageBanner 

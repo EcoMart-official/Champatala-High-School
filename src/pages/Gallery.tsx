@@ -19,6 +19,8 @@ export function Gallery() {
       <SEO 
         title="Photo Gallery"
         description="Capturing moments of learning, achievement, and growth at Champatala High School." 
+        url="https://champatalahighschool.in/gallery"
+        breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'Gallery', path: '/gallery' }]}
       />
       
       <PageBanner 

@@ -11,7 +11,12 @@ import { motion } from 'motion/react';
 export function Home() {
   return (
     <>
-      <SEO />
+      <SEO 
+        title="Champatala High School | Excellence in Education"
+        description="Welcome to Champatala High School, a government-sponsored higher secondary institution in Purba Medinipur. Shaping futures with quality education since 1947."
+        url="https://champatalahighschool.in"
+        breadcrumbs={[{ label: 'Home', path: '/' }]}
+      />
       <div className="w-full">
         <Hero />
         <QuickHighlights />

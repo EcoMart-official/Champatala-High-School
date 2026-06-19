@@ -112,6 +112,8 @@ export function Faculty() {
       <SEO 
         title="Faculty & Staff - Complete Directory"
         description="Meet the dedicated educators, specialists, and administrative staff at Champatala High School." 
+        url="https://champatalahighschool.in/faculty"
+        breadcrumbs={[{ label: 'Home', path: '/' }, { label: 'Faculty', path: '/faculty' }]}
       />
       
       <PageBanner 
